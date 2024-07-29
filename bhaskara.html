@@ -8,11 +8,18 @@ Encontre as raizes reais para equação de segundo grau: 4x² + 6x + 2 = 0.
 
 // Entrada de dados
 
+let a = 4;
+let b = 6;
+let c = 2;
 
 // Processamento
+let Delta = b**2 - (4 * a * c);
 
+let x1 = (-b + Math.sqrt(Delta)) / (2 * a);
+let x2 = (-b - Math.sqrt(Delta)) / (2 * a);
 
 // Saída de dados
-
+document.write(`As raizes reais x1 e x2 são, respectivamente: ${x1}, ${x2}.`)
+  
 
 </script>
