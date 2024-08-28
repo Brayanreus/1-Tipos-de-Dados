@@ -7,9 +7,14 @@ Através da operação de multiplicação, desenvolva a tabuada do 7 e imprima n
 
 
 // Processamento
-
+let tabuada = "";
+    for (let i = 1; i <= 10; i++) {
+        let resultado = 7 * i;
+        tabuada += "<li>7 x " + i + " = " + resultado + "</li>";
+    }
 
 // Saída de dados
-
+document.write("<h2>Tabuada do 7</h2>");
+    document.write("<ul>" + tabuada + "</ul>");
 
 </script>
